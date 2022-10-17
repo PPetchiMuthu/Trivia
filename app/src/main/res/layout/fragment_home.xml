@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        android:text="@string/hello_blank_fragment"
+        android:textSize="40sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="261dp"
+        android:layout_margin="20dp"
+        tools:src="@tools:sample/avatars" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:id="@+id/editText"
+        android:hint="@string/name"
+        android:gravity="center"
+        android:inputType="text">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/Start"
+        android:layout_width="280dp"
+        android:layout_height="98dp"
+        android:layout_margin="20dp"
+        android:text="@string/Start" />
+
+    <Button
+        android:id="@+id/Exit"
+        android:layout_width="284dp"
+        android:layout_height="91dp"
+        android:layout_margin="20dp"
+        android:text="@string/Exit" />
+
+
+</LinearLayout>

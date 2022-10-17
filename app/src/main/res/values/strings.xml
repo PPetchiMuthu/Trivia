@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Trivia</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">QuizApp</string>
+    <string name="Start">Start</string>
+    <string name="Exit">Exit</string>
+    <string name="name">Please Enter Your Name</string>
+    <string name="Question1">
+Number of primitive data types in Java are?</string>
+    <string name="skip">Skip</string>
+    <string name="next">Summit</string>
+    <string name="Question2">What is the size of float and double in java?
+</string>
+    <string name="Question3">
+Automatic type conversion is possible in which of the possible cases?</string>
+    <string name="Question4">When is the object created with new keyword?
+</string>
+    <string name="Question5">
+In which of the following is toString() method defined?</string>
+</resources>

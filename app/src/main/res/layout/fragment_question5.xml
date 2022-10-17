@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:orientation="horizontal"
+    tools:context=".Question1Fragment">
+
+    <RadioGroup
+        android:id="@+id/radioButton"
+        android:layout_width="match_parent"
+        android:layout_height="603dp"
+        android:layout_gravity="center_horizontal"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:id="@+id/question5"
+            android:layout_width="wrap_content"
+            android:layout_height="154dp"
+            android:layout_margin="30dp"
+            android:text="@string/Question5"
+            android:textSize="30sp" />
+
+        <RadioButton
+            android:id="@+id/option1"
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:checked="false"
+            android:text="java.lang.Object"
+            android:textSize="30sp"
+            tools:ignore="DuplicateSpeakableTextCheck" />
+
+        <RadioButton
+            android:id="@+id/option2"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:checked="false"
+            android:text="java.lang.String"
+            android:textSize="30sp" />
+
+        <RadioButton
+            android:id="@+id/option3"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:baselineAligned="false"
+            android:checked="false"
+            android:text="java.lang.Util"
+            android:textSize="30sp" />
+
+        <RadioButton
+            android:id="@+id/option4"
+            android:layout_width="match_parent"
+            android:layout_height="74dp"
+            android:checked="false"
+            android:text="None of the above"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/next"
+            android:textSize="30sp" />
+    </RadioGroup>
+
+
+</LinearLayout>
